@@ -1,0 +1,33 @@
+.div_class{
+    background-color: black;
+    margin: auto;
+    display: flex;
+    justify-content: center;   
+    align-items: center;  
+    width: 30%;      
+    height: 700px;    
+    border-radius: 20px;         
+} 
+.maininput{
+    height: 100px;
+    width: 420px;
+    border: 1px solid grey;
+    margin-bottom: 10px;
+    font-size: 44px;
+    border-radius: 20px;
+}
+.numbtn{
+    border-radius: 50%;
+    border:1px solid grey;
+    width: 100px;
+    height: 100px;
+    margin: 5px 2px;
+    font-size: 24px;
+}
+input[name = "oper"]{
+    background-color: #f1a33c;
+}input[name = "num"]{
+    background-color: #505050;
+}input[name = "equal"]{
+    background-color: #d4d4d2;
+}
